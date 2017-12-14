@@ -21,7 +21,8 @@ void setVal(int iInputNumber){
 }
 bool MyThread::Stop()
 {
-    return pthread_join(m_pThreadPtr, NULL);
+    
+	return pthread_join(m_pThreadPtr, NULL);
 }
 bool MyThread::Run()
 {
