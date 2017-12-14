@@ -11,7 +11,7 @@ MyThread::~MyThread()
 
 bool MyThread::Stop()
 {
-    return pthread_join(m_pThreadPtr, NULL);
+    return pthread_join
 }
 
 bool MyThread::Run()
