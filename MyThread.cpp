@@ -13,12 +13,15 @@ int getVal(){
 	return 0;
 }
 
-bool MyThread::Stop()
-{
-    return pthread_join(m_pThreadPtr, NULL);
+void setRandomVal(){
+	
 }
 void setVal(int iInputNumber){
 	
+}
+bool MyThread::Stop()
+{
+    return pthread_join(m_pThreadPtr, NULL);
 }
 bool MyThread::Run()
 {
